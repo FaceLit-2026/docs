@@ -2,7 +2,7 @@
 
 Repositorio documental del sistema FaceLit para la gestión académica y el control de asistencia con reconocimiento facial. La entrega se organiza en las 17 secciones numeradas del proyecto.
 
-**Despliegue actual:** [FaceLit](https://facelit.tech/) está publicado íntegramente en un VPS de **Hostinger**. Docker Compose coordina la web, el backend Spring Boot, el servicio facial FastAPI y PostgreSQL con pgvector; Caddy publica el dominio por HTTPS y conecta API y WebSocket. El [informe de despliegue](17_Despliegue/Despliegue_Hostinger.md) documenta el paquete preparado desde `main` local de los cuatro repositorios y sus ajustes.
+**Despliegue actual:** [FaceLit](https://facelit.tech/) está publicado íntegramente en un VPS de **Hostinger**. Docker Compose coordina la web, el backend Spring Boot, el servicio facial FastAPI y PostgreSQL con pgvector; Caddy publica el dominio por HTTPS y conecta API y WebSocket. El [informe de despliegue](17_Despliegue/Migracion_FaceLit_2026_Hostinger.md) documenta la publicación desde `main` de los cuatro repositorios de la organización `FaceLit-2026`, con SHA e imágenes verificados.
 
 ## Índice de la documentación
 
@@ -24,7 +24,7 @@ Repositorio documental del sistema FaceLit para la gestión académica y el cont
 | [14 — Anexos](14_Anexos/README.md) | Anexos A, B y C del SRS, trazabilidad complementaria y propuesta de licencias. |
 | [15 — Repositorios](15_Link_Repositorios/Repositorios_del_proyecto.md) | Enlaces a los cuatro repositorios del proyecto. |
 | [16 — Diseño visual](16_Diseño_Visual/README.md) | Arquitectura de información, identidad visual, sistema UI y recursos gráficos. |
-| [17 — Despliegue](17_Despliegue/Despliegue_Hostinger.md) | Procedimiento, infraestructura y versiones declaradas para el despliegue. |
+| [17 — Despliegue](17_Despliegue/Migracion_FaceLit_2026_Hostinger.md) | Procedimiento, infraestructura y versiones declaradas para el despliegue. |
 
 ## Anexos y entregables
 
@@ -42,4 +42,4 @@ Repositorio documental del sistema FaceLit para la gestión académica y el cont
 
 ## Repositorios del sistema
 
-La solución está distribuida en los repositorios FaceLit (frontend), FaceLit-Backend, micro-facial (servicio facial) y FaceLit-DB (esquema y migraciones). Los enlaces y detalles están en [15_Link_Repositorios](15_Link_Repositorios/Repositorios_del_proyecto.md); las referencias de despliegue están en [17_Despliegue](17_Despliegue/Despliegue_Hostinger.md).
+La solución vigente está distribuida en los repositorios `FaceLit-2026/frontend`, `FaceLit-2026/backend`, `FaceLit-2026/microservice` y `FaceLit-2026/db`. Los enlaces y detalles están en [15_Link_Repositorios](15_Link_Repositorios/Repositorios_del_proyecto.md); las referencias de despliegue están en [17_Despliegue](17_Despliegue/Migracion_FaceLit_2026_Hostinger.md).

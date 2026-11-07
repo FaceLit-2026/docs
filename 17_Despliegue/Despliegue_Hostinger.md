@@ -1,5 +1,7 @@
 # FaceLit — implementación y despliegue en Hostinger
 
+> **Informe histórico de la entrega anterior.** La publicación actual de la organización FaceLit-2026 se documenta en [Migración del despliegue](Migracion_FaceLit_2026_Hostinger.md).
+
 **Actualización:** 4 de noviembre de 2026.  
 **Estado del informe:** documenta la publicación desde `main` y el procedimiento operativo. Al 4 de noviembre, el equipo confirma que login, CSV, correo, cámara y asistencia funcionan en el sistema.
 
